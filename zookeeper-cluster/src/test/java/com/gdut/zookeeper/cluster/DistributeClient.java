@@ -52,7 +52,7 @@ public class DistributeClient {
     }
 
     // 业务功能
-    public void business() throws Exception{
+    public void business() throws Exception {
 
         System.out.println("client is working ...");
         Thread.sleep(Long.MAX_VALUE);

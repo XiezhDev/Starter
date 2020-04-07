@@ -44,11 +44,10 @@ public class DistributeServer {
         server.getConnect();
 
         // 2 利用zk连接注册服务器信息
-        String hostname = "xiezh1";
-        server.registServer(hostname);
+        server.registServer(args[0]);
 
         // 3 启动业务功能
-        server.business(hostname);
+        server.business(args[0]);
     }
 
 }

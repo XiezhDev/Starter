@@ -39,7 +39,7 @@ public class ZookeeperClentTest {
     public void create() throws Exception {
         // 参数1：要创建的节点的路径； 参数2：节点数据 ； 参数3：节点权限 ；参数4：节点的类型
         String nodeCreated = zkClient.create("/gdut", "xiezh".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-        System.out.println("nodeCreated:" +nodeCreated);
+        System.out.println("nodeCreated:" + nodeCreated);
     }
 
     // 获取子节点
