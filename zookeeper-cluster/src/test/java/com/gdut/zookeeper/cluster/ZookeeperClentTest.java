@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ZookeeperClentTest {
     private static String connectString =
-            "localhost:2181,localhost:2182,localhost:2183";
+            "cloud-node1:2181,loud-node2:2181,loud-node3:2181";
     private static int sessionTimeout = 2000;
     private ZooKeeper zkClient = null;
 
